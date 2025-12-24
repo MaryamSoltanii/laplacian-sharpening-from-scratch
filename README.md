@@ -11,3 +11,4 @@ A pure NumPy implementation of Laplacian sharpening for image enhancement, featu
 
 ## Algorithm
 The implementation uses the standard 8-directional Laplacian kernel:
+<img width="1745" height="597" alt="image" src="https://github.com/user-attachments/assets/75a2ea36-0e15-4cc0-957c-cb130c1116ab" />
