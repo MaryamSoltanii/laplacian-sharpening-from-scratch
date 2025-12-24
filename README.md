@@ -1,15 +1,13 @@
+# Laplacian Sharpening from Scratch
 
-The sharpening formula:  
-`sharpened_image = original_image + laplacian_image`
+A pure NumPy implementation of Laplacian sharpening for image enhancement, featuring manual convolution and replicate padding without using OpenCV's built-in functions.
 
-## Requirements
-- Python 3.7+
-- NumPy
-- OpenCV (for image reading only)
-- Matplotlib (for visualization)
+## Features
+- **Manual 8-neighborhood Laplacian kernel** implementation
+- **Replicate padding** implemented from scratch
+- **Pure NumPy convolution** without OpenCV's `filter2D`
+- **Image sharpening** via edge enhancement
+- **Visual comparison** of original, Laplacian, and sharpened images
 
-## Installation
-```bash
-git clone https://github.com/yourusername/laplacian-sharpening-from-scratch.git
-cd laplacian-sharpening-from-scratch
-pip install -r requirements.txt
+## Algorithm
+The implementation uses the standard 8-directional Laplacian kernel:
